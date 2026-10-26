@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <div class="dados">
+
+        <h1>Cadastro de alunos</h1>
+
+        <p class="descricao">Preencha os dados abaixo:</p>
+
+        <input type="text" id="nome"
+        placeholder="Digite seu nome">
+        <br>
+        <br>
+        <input type="number" id="idade"
+        placeholder="Digite sua Idade">
+        <br>
+        <br>
+        <input type="text" id="curso"
+        placeholder="Digite seu curso do SENAI">
+            <br> <br>
+        <button id="cadastrar" onclick="cadastrar()">
+            Cadastrar Aluno
+        </button>
+
+        <button id="novoAluno" onclick="novoAluno()">
+            Cadastar novo Aluno
+        </button>
+
+        <h2 id="resultado"></h2>
+
+
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
